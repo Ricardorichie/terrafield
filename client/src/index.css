@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 84% 5%;
+  --muted: 210 40% 98%;
+  --muted-foreground: 215 16% 47%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 84% 5%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 84% 5%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --primary: 142 76% 36%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 98%;
+  --secondary-foreground: 222 84% 5%;
+  --accent: 210 40% 98%;
+  --accent-foreground: 222 84% 5%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 142 76% 36%;
+  --radius: 0.75rem;
+  
+  /* TerraField Custom Colors */
+  --terra-green: 142 76% 36%; /* #22C55E */
+  --terra-deep: 142 86% 28%; /* #15803D */
+  --terra-gold: 45 93% 47%; /* #F59E0B */
+  --terra-brown: 28 100% 29%; /* #92400E */
+  --terra-gray: 220 9% 46%; /* #6B7280 */
+  --terra-light: 210 40% 98%; /* #F9FAFB */
+}
+
+.dark {
+  --background: 222 84% 5%;
+  --foreground: 210 40% 98%;
+  --muted: 217 32% 17%;
+  --muted-foreground: 215 20% 65%;
+  --popover: 222 84% 5%;
+  --popover-foreground: 210 40% 98%;
+  --card: 222 84% 5%;
+  --card-foreground: 210 40% 98%;
+  --border: 217 32% 17%;
+  --input: 217 32% 17%;
+  --primary: 142 76% 36%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 217 32% 17%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 217 32% 17%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 142 76% 36%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .terra-green {
+    color: hsl(var(--terra-green));
+  }
+  
+  .bg-terra-green {
+    background-color: hsl(var(--terra-green));
+  }
+  
+  .terra-deep {
+    color: hsl(var(--terra-deep));
+  }
+  
+  .bg-terra-deep {
+    background-color: hsl(var(--terra-deep));
+  }
+  
+  .terra-gold {
+    color: hsl(var(--terra-gold));
+  }
+  
+  .bg-terra-gold {
+    background-color: hsl(var(--terra-gold));
+  }
+  
+  .terra-light {
+    color: hsl(var(--terra-light));
+  }
+  
+  .bg-terra-light {
+    background-color: hsl(var(--terra-light));
+  }
+  
+  .terra-gray {
+    color: hsl(var(--terra-gray));
+  }
+  
+  .bg-terra-gray {
+    background-color: hsl(var(--terra-gray));
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hover-scale {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--terra-green));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--terra-deep));
+}

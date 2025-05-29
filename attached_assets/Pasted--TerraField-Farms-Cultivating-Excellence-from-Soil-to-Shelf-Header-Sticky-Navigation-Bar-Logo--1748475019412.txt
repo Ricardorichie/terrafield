@@ -1,0 +1,73 @@
+🌿 TerraField Farms – Cultivating Excellence from Soil to Shelf Header (Sticky Navigation Bar) Logo: Top-left – TerraField Farms (stylized with an earthy green and golden palette)
+
+Nav Links:
+
+Home
+
+About Us
+
+Our Farms
+
+Processing
+
+Export
+
+Marketplace
+
+Contact
+
+Call-to-Action Button: “Shop Now” or “Partner With Us”
+
+Hero Section Background: Full-screen high-quality video/image of lush fields, harvesting, and processing. Text (Centered): Headline: “From Rich Earth to Global Markets” Subheadline: “Sustainable farming. Smart processing. Worldwide delivery.” CTA Buttons:
+
+“Explore Our Process”
+
+“View Products”
+
+About Section Title: Who We Are Content: A brief description of TerraField Farms' mission, history, and values (e.g., sustainability, innovation, community impact). Visual: Side-by-side images of the farm, team, and facilities.
+
+What We Do (4 Pillars Grid) Use icons or images in a 4-column layout:
+
+Farming – “Responsible agriculture with high-yield, high-quality practices.”
+
+Processing – “State-of-the-art transformation of raw materials into premium goods.”
+
+Marketplace – “Local market presence delivering freshness at your doorstep.”
+
+Export – “Reaching global markets with our quality-first approach.”
+
+Featured Products / Crops Carousel or grid showcasing your top produce or processed products
+
+Product Name + Short Description + “Learn More” or “Buy Now”
+
+Why Choose TerraField Sustainable practices
+
+Traceable supply chain
+
+Community-based initiatives
+
+Reliable export network
+
+Visuals: Custom icons or illustrations
+
+Testimonials / Partners Short quotes from customers, retailers, or partners
+
+Logos of business partners or certifications
+
+Newsletter Signup Call to Action: “Get Fresh Updates from the Field”
+
+Email input + subscribe button
+
+Optional: Checkbox for interests (local sales, exports, investment)
+
+Footer Quick Links
+
+Contact Info (Phone, Email, Address)
+
+Social Media Icons
+
+Legal Links (Privacy Policy, Terms)
+
+NB:
+
+logo is in the repo Use next js with typescript Use tailwind for styling
